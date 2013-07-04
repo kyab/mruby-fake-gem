@@ -5,7 +5,7 @@
 #include "mruby/data.h"
 
 mrb_value fake_c_method1(mrb_state *mrb, mrb_value self){
-  return mrb_fixnum_value(123);
+  return mrb_fixnum_value(999);
 }
 
 void
